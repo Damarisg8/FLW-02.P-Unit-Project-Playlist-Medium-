@@ -10,15 +10,15 @@ h1 {
 .display {
   display: flex;
   justify-content: space-around;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 5px solid #fb6af6;
+  border-bottom: 5px solid #fb6af6;
   padding: 25px
 }
 
 .heading {
   display: flex;
   justify-content: space-around;
-  border-top: 5px solid black;
+  border-top: 5px solid #fb6af6;
   background-color: rgba(76, 175, 80, 0.3)
 }
 
@@ -72,12 +72,13 @@ input {
 button {
   font-size: 14px;
   padding: 5px 10px;
-  color: black;
+  color: #e401dd;
+  background-color: #fdb4db;
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
-color: white;
+  background-color: #ffaded;
+color: #fc1df4;
 }
 
 h4{

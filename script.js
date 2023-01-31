@@ -22,8 +22,17 @@ let displayLink = document.querySelector(".display-link");
 
 
 // task 7: create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
+let imageList = [];
+console.log();
 
+let songList = ["The French Library", "Ala", "The Flower Garden", "Rises The moon"];
+console.log();
 
+let artistList = ["Franz Gordon", "Joep Beving", "Joe Hisaishi", "Liana Flores"];
+console.log();
+
+let linkList = [""];
+console.log();
 
 
 
