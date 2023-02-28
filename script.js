@@ -22,7 +22,7 @@ let displayLink = document.querySelector(".display-link");
 
 
 // task 7: create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
-let imageList = [];
+let imageList = ["https://rb.gy/ciefli","https://rb.gy/8xclbh","https://rb.gy/4zqcbj","https://rb.gy/em79wh"];
 console.log();
 
 let songList = ["The French Library", "Ala", "The Flower Garden", "Rises The moon"];
@@ -31,7 +31,7 @@ console.log();
 let artistList = ["Franz Gordon", "Joep Beving", "Joe Hisaishi", "Liana Flores"];
 console.log();
 
-let linkList = [""];
+let linkList = ["https://rb.gy/feom7d", "https://rb.gy/rbiehr", "https://rb.gy/1ajjjc", "https://rb.gy/84uys8"];
 console.log();
 
 
@@ -79,9 +79,22 @@ function emptyDisplay() {
 function displaySongInfo() {
 
 // task 8: loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
+for(let i = 0 ; i < 4 ; i++){
+  displayImage.insertAdjacentHTML("beforeend", `<img src= ${imageList[i]}>`)
+}
 
+for(let i = 0 ; i < 4 ; i++){
+  displaySong.insertAdjacentHTML("beforeend", ` ${songList[i]}`)
+}
 
+for(let i = 0 ; i < 4 ; i++){
+  displayArtist.insertAdjacentHTML("beforeend", ` ${artistList[i]}`)
+}
 
+for(let i = 0 ; i < 4 ; i++){
+  displayLink.insertAdjacentHTML("beforeend", ` ${linkList[i]}`)
+}
+  
 }
 
 
